@@ -1,0 +1,10 @@
+@mixin heading($weight, $size, $family, $align, $spacing) {
+    font: {
+        weight: $weight;
+        size: $size;
+        family: $family, sans-serif;
+    }
+
+    text-align: $align;
+    letter-spacing: $spacing;
+}
