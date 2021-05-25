@@ -28,8 +28,8 @@ body {
   position: relative;
 }
 
-.section:before,
-.section .card:before {
+.section section:before,
+.section section .card:before {
   content: "";
   position: absolute;
   width: 170px;
@@ -39,9 +39,9 @@ body {
   border-radius: 50%;
 }
 
-.section:before {
-  top: 13%;
-  left: 53%;
+.section section:before {
+  bottom: 80%;
+  left: 72%;
 }
 
 .card:before {
